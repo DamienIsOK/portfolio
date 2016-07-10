@@ -70,12 +70,12 @@
 		height: 60px;
 		background-color: #A9A9A9;
 		border-top: 9px #4aaaa5 solid;
-	}
+		}
 
 
-			.img-containers {
-		    display: block;
-		    padding: 10px
+		.img-containers {
+		 display: block;
+		 padding: 10px
 		}
 
 		.gallery-img {
@@ -108,9 +108,9 @@
 
 @media screen and (max-width: 768px) {
      
-     body {
+    body {
         background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png');
-     }
+    }
 
 	main {
 		padding-top: 10px;
@@ -263,6 +263,7 @@
 	#inner-header {
 		width: 100%;
 		height: 100px;
+		padding-right: 0px;
 
 	}
 
