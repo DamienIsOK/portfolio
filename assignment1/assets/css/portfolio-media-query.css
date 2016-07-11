@@ -1,20 +1,15 @@
 /* MEDIA QUERY 980 */
 
 @media screen and (max-width: 980px) {
-     
-    body {
-        background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png');
-     }
 
 	main {
 		padding-top: 10px;
-		width: 910px;
-		height: 675px;
+		width: 100%;
 		margin: auto;
 	}
 
 	#main-content-box {
-		width: 630px;
+		width: 65%;
 		float: left;
 		margin-bottom: 50px;
 		padding: 15px 0px 25px 0px;
@@ -26,7 +21,7 @@
 
 	aside {
 		float: right;
-		width: 270px;
+		width: 30%;
 		margin: 0px auto;
 		border: 1px solid #A9A9A9;
 		background-color: #ffffff;
@@ -70,61 +65,54 @@
 		height: 60px;
 		background-color: #A9A9A9;
 		border-top: 9px #4aaaa5 solid;
+	}
+
+
+	.img-containers {
+	    display: block;
+	    padding: 10px
+	}
+
+	.gallery-img {
+		width: 95%;
+	}
+
+	#img-box {
+		padding-left: 5px;
+	}
+
+	#inner-img-box {
+		width: 500px;
+		margin: auto;
+	}
+
+	.img-labels {
+		position: absolute;
+		margin-top: 250px;
+		height: 55px;
+		width: 456px;
+		background-color: #4aaaa5;
+		padding-top: 20px;
+		font-size: 35px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #ffffff;
+		text-align: center;
 		}
 
+/* MEDIA QUERY 768 */
 
-		.img-containers {
-		 display: block;
-		 padding: 10px
-		}
-
-		.gallery-img {
-			width: 100%;
-		}
-
-		#img-box {
-			padding-left: 5px;
-		}
-
-		#inner-img-box {
-			width: 500px;
-			margin: auto;
-		}
-
-		.img-labels {
-			position: absolute;
-			margin-top: 250px;
-			height: 55px;
-			width: 480px;
-			background-color: #4aaaa5;
-			padding-top: 20px;
-			font-size: 35px;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			color: #ffffff;
-			text-align: center;
-		}
-
-  /* MEDIA QUERY 768 */
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
      
-    body {
-        background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png');
-    }
-
 	main {
 		padding-top: 10px;
-		/*padding-left: 5px;*/
-		width: 700px;
-		height: 750px;
+		width: 100%;
 		margin: auto;
 	}
 
 	#main-content-box {
-		width: 700px;
-		height: auto;
+		width: 95%;
 		float: left;
-		margin: 0 auto;
+		margin: 0px 3%;
 		padding: 15px 0px 25px 0px;
 		background-color: #ffffff;
 		border: 1px solid #A9A9A9;
@@ -134,8 +122,8 @@
 
 	aside {
 		float: left;
-		width: 700px;
-		margin: 10px auto;
+		width: 95%;
+		margin: 10px 3%;
 		border: 1px solid #A9A9A9;
 		background-color: #ffffff;
 		display: inline-block;
@@ -180,37 +168,6 @@
 		border-top: 9px #4aaaa5 solid;
 	}
 
-/*		.img-containers {
-		    display: block;
-		    padding: 10px
-		}
-
-		.gallery-img {
-			width: 100%;
-		}
-
-		#img-box {
-			padding-left: 5px;
-		}
-
-		#inner-img-box {
-			width: 500px;
-			margin: auto;
-		}
-
-		.img-labels {
-			position: absolute;
-			margin-top: 250px;
-			height: 55px;
-			width: 480px;
-			background-color: #4aaaa5;
-			padding-top: 20px;
-			font-size: 35px;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			color: #ffffff;
-			text-align: center;
-		}*/
-
 }
 
 
@@ -218,22 +175,16 @@
 
 /* MEDIA QUERY 640 */
 
-@media screen and (max-width: 640px) {
-     
-     body {
-        background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_embroidery.png');
-     }
+@media screen and (min-width: 500px) and (max-width: 640px) {
 
-	main {
+main {
 		padding-top: 10px;
-		width: 610px;
-		height: 750px;
+		width: 100%;
 		margin: auto;
 	}
 
 	#main-content-box {
-		width: 610px;
-		height: 2000px;
+		width: 100%;
 		float: left;
 		margin: 0 auto;
 		padding: 15px 0px 25px 0px;
@@ -245,7 +196,7 @@
 
 	aside {
 		float: left;
-		width: 610px;
+		width: 100%;
 		margin: 10px auto;
 		border: 1px solid #A9A9A9;
 		background-color: #ffffff;
@@ -260,11 +211,11 @@
 		border-bottom: 5px #A9A9A9 solid;
 		}
 
+
 	#inner-header {
 		width: 100%;
 		height: 100px;
 		padding-right: 0px;
-
 	}
 
 	#name {
